@@ -1,0 +1,42 @@
+.droite{
+    left: 50%;
+}
+.animSub{
+    width: 50%;
+    animation: SubLandinAnim 3s ease;
+}
+.gauche{
+    width: 50%;
+    left: 0%;
+}
+#panneauLogo, #panneauInscription{
+    transition: background-color 1s ease, left 1s ease,margin 0.4s ease;
+
+}
+#panneauLogo{
+    z-index: 2;
+    
+}
+#h2Inscription{
+ transition: color 0.7s ease;
+}
+@keyframes SubLandinAnim {
+    0%{left:0;
+        width: 100%;
+    }
+    40%{left:0;
+        width: 100%;
+    }
+    100%{
+        left:50%;
+        width: 50%;
+
+    }
+    
+}
+
+@media only screen and (max-width: 768px) {
+    .droite{
+        left: 0%;
+    }
+}

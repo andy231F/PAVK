@@ -1,0 +1,77 @@
+@import url("tweet.css");
+@import url("login.css");
+@import url("search.css");
+@import url("profil.css");
+
+/* @import url("editProfil.css"); */
+@import url("subscription.css");
+/* @import "tailwindcss"; */
+
+body{
+   transition:  background-color 0.7s ease ;
+}
+.navbar .anim{
+    animation: navbar 0.9s ease forwards;
+    animation-timing-function: cubic-bezier(.38,1.95,.77,.57);
+    position: relative;
+    left: -20vw;
+}
+@keyframes navbar {
+    0%{left: -20vw;}
+    100%{left: 0px}
+}
+*::selection{
+    background-color: red;
+    color: white;
+}
+
+input:focus,select:focus,#suivantButton:focus{
+    outline: 3px solid green;
+}
+#FollowModal{
+    animation: ModalPop 0.7s ease;
+}
+
+.pannelOut{
+    animation: pannelOut 0.2s forwards;
+}
+.pannelIn{
+    animation: pannelIn 0.4s ;
+}
+
+.logout{
+    animation: opacity 3s ease;
+}
+.rondThemeToggler{
+    transition: transform 0.7s;
+}
+.tweet_response{
+    transform-origin: top;
+    animation: transform 0.4s;
+}
+@keyframes opacity {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+@keyframes transform {
+    0%{transform: scaleY(0%);}
+    100%{transform: scaleY(100%);}
+}
+
+
+@keyframes pannelOut {
+    0%{left: 0;}
+    100%{left: 100vw;}
+}
+
+@keyframes pannelIn {
+    0%{opacity: 0;}
+    100%{opacity:  1;}
+}
+
+
+
+@keyframes ModalPop {
+    0%{bottom: 100vh;}
+    100%{bottom: 0;}
+}

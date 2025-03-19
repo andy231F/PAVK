@@ -1,0 +1,23 @@
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 12px 20px;
+  transition: 0.1s;
+}
+
+.tab button:hover {
+  background-color: #a6a6a6;
+}
+
+.tab button.active {
+  color: #FF6467;
+  border-bottom: 3px solid #FF6467;
+}
+
+.tabcontent {
+  display: none;
+  border-top: none;
+}

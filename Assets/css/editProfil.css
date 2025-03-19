@@ -1,0 +1,36 @@
+.bg-cover {
+    background: url('../img/cover-placeholder.png') no-repeat;
+    background-size: cover;
+    width: 486px;
+    height: 162px;
+    max-width: 100%;
+    position: relative;
+    margin-bottom: 84px;
+}
+
+.bg-cover input {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+}
+
+.banner {
+    position: relative;
+}
+
+.bg-profile {
+    background: url('../img/dp-placeholder.jpg') no-repeat;
+    background-size: contain;
+    width: 108px;
+    height: 108px;
+    max-width: 100%;
+    position: absolute;
+    left: 18px;
+    bottom: -56px;
+    clip-path: circle();
+}
+.bg-profile input {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+}

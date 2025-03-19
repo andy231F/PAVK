@@ -1,0 +1,62 @@
+.tweet {
+  border: 2px solid rgba(0, 0, 0, 0.307);
+  padding: 30px;
+  border-radius: 20px;
+  width: 90%;
+  height: fit-content;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  margin-top: 40px;
+  opacity: 0;
+  animation: opacity 1s ease forwards;
+}
+.tweet_contenu {
+  margin: 50px 0px;
+}
+.tweet_compteur div {
+  display: flex;
+  align-items: center;
+}
+
+.tweet_compteur {
+  display: flex;
+  justify-content: space-evenly;
+}
+.date {
+  font-weight: 600;
+  color: gray;
+}
+.création_tweet {
+  flex-direction: column;
+  display: flex;
+  width: 40vw;
+  height: 200px;
+  margin: auto;
+}
+.création_tweet input {
+  width: 100%;
+  height: 150px;
+}
+.création_tweet button {
+  width: fit-content;
+  color: white;
+  background-color: rgb(64, 101, 223);
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+svg {
+  transition: fill 0.3s ease;
+}
+.clicked svg {
+  fill: red !important;
+}
+.clickedGreen svg {
+  fill: rgb(9, 208, 9) !important;
+}
+
+.clickedBlue svg {
+  fill: rgb(9, 89, 208) !important;
+  /* background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 -960 960 960' width='24px' fill='%23000000'%3E%3Cpath d='M240-400h320v-80H240v80Zm0-120h480v-80H240v80Zm0-120h480v-80H240v80ZM80-80v-720q0-33 23.5-56.5T160-880h640q33 0 56.5 23.5T880-800v480q0 33-23.5 56.5T800-240H240L80-80Zm126-240h594v-480H160v525l46-45Zm-46 0v-480 480Z'/%3E%3C/svg%3E"); */
+}

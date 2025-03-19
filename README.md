@@ -73,9 +73,7 @@ Tweet\_Academie est un projet étudiant visant à recréer les fonctionnalités 
 6. Accédez au projet via votre navigateur.
 
 
+<img width="1435" alt="9774e9f4c" src="https://github.com/user-attachments/assets/1845881e-9800-4a62-a6d6-30f573c80d91" />
 
-
-
-<img width="1435" alt="Capture d’écran 2025-03-14 à 16 39 38" src="https://github.com/user-attachments/assets/2991f5a9-97a4-46ab-8589-1999774e9f4c" />
 
 

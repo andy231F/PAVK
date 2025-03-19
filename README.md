@@ -1,6 +1,6 @@
 # Tweet\_Academie
 
-**par Vivilia LOUIS ADORE, Paul DAVID, Kandyss CAMIER et Aissatou LABBO SOW**
+**par Kandyss CAMIER, Vivilia LOUIS ADORE, Paul DAVID, et Aissatou LABBO SOW**
 
 &#x20;
 
@@ -8,7 +8,7 @@
 
 Tweet\_Academie est un projet étudiant visant à recréer les fonctionnalités principales de Twitter. Ce remake est développé en **PHP** et **JavaScript**, avec **Tailwind CSS** pour le design et des requêtes **AJAX** pour une expérience utilisateur fluide.
 
-<img width="1440" alt="Capture d’écran 2025-03-14 à 16 40 18" src="https://github.com/user-attachments/assets/3bb9eeef-2834-4079-8601-690881be5b2b" />
+![Capture d'écran 2025-03-16 122532](https://github.com/user-attachments/assets/9ef2bf92-7656-493f-8297-bc0a2346858b)
 
 (mode sombre disponible également)
 
